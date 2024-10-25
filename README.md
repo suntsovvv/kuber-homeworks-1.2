@@ -10,7 +10,7 @@ metadata:
   name: hello world
 spec:
   containers:
-  - name: echoserver:2.2
+  - name: echoserver
     image: gcr.io/kubernetes-e2e-test-images/echoserver:2.2
     ports:
     - containerPort: 80

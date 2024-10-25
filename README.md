@@ -13,7 +13,7 @@ spec:
   - name: echoserver:2.2
     image: gcr.io/kubernetes-e2e-test-images/echoserver:2.2
     ports:
-    - containerPort: 8080
+    - containerPort: 80
 ```
 Cоздал pod:
 ```bash
